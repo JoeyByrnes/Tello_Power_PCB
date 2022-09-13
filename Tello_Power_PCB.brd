@@ -3866,7 +3866,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ltc4357cms8#trpbf" x="1" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-37.635" y="-29.7234" size="1.27" layer="25" ratio="6" rot="SR270"/>
 <attribute name="SOURCELIBRARY" value="LinearTech_2016_03_08" x="1" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-37.635" y="-31.2728" size="1.27" layer="21" ratio="6" rot="SR270"/>
 <attribute name="VENDOR" value="Linear Technology" x="1" y="-33" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U4" library="BSC010N04LS6ATMA1" package="PG-TDSON-8-6_INF" value="BSC010N04LS6ATMA1" x="-52" y="-22" smashed="yes" rot="R90">
@@ -3875,7 +3874,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSC010N04LS6ATMA1" x="-58" y="-31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-47.555" y="-25.2766" size="1.27" layer="25" ratio="6" rot="SR90"/>
 <attribute name="SOURCELIBRARY" value="Infineon_2020-01-21" x="-58" y="-31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-55.175" y="-23.7272" size="1.27" layer="21" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="Infineon" x="-58" y="-31" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CR1" library="STPS1150A" package="SMA_STM" value="STPS1150A" x="-39" y="-39" smashed="yes">
@@ -3883,7 +3881,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="STPS1150A" x="-47" y="-1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-42.2766" y="-39.635" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="SOURCELIBRARY" value="Update_to_database_2020-11-24" x="-47" y="-1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-40.7272" y="-39.635" size="1.27" layer="21" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="STMicroelectronics" x="-47" y="-1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF" x="-58" y="-24" smashed="yes" rot="R180">
@@ -3916,7 +3913,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSC010N04LS6ATMA1" x="-29" y="-40" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-40.555" y="-25.2766" size="1.27" layer="25" ratio="6" rot="SR90"/>
 <attribute name="SOURCELIBRARY" value="Infineon_2020-01-21" x="-29" y="-40" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-48.175" y="-23.7272" size="1.27" layer="21" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="Infineon" x="-29" y="-40" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U6" library="BSC010N04LS6ATMA1" package="PG-TDSON-8-6_INF" value="BSC010N04LS6ATMA1" x="-38" y="-22" smashed="yes" rot="R90">
@@ -3925,7 +3921,6 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BSC010N04LS6ATMA1" x="-32" y="-49" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-33.555" y="-25.2766" size="1.27" layer="25" ratio="6" rot="SR90"/>
 <attribute name="SOURCELIBRARY" value="Infineon_2020-01-21" x="-32" y="-49" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-41.175" y="-23.7272" size="1.27" layer="21" ratio="6" rot="SR90"/>
 <attribute name="VENDOR" value="Infineon" x="-32" y="-49" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CON6" library="amass" package="XT30PW-M" value="XT30PW-M" x="-48" y="-34" smashed="yes" rot="R90">
@@ -4481,10 +4476,10 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <mfgpreviewcolors>
-<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8000000"/>
 <mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
-<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
-<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF868A8B"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFBFBFBF"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 </board>
