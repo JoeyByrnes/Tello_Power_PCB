@@ -5,11 +5,11 @@ Hardware Design Files for Tello Power Regulation/Distribution PCB
 <hr>
 <br>
 <p align="center">
-  <img width="70%" src="readme-visuals/power_pcb_top.png">
+  <img width="90%" src="readme-visuals/power_pcb_top.png">
 </p>
 <br>
 <p align="center">
-  <img width="70%" src="readme-visuals/power_pcb_bottom.png">
+  <img width="90%" src="readme-visuals/power_pcb_bottom.png">
 </p>
 <br>
 
