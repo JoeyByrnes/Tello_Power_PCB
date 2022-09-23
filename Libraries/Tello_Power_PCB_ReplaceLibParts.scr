@@ -1,0 +1,969 @@
+# 'EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.;
+
+SET UNDO_LOG OFF;
+# Take all libraries out of use
+USE -*;
+#
+# SHEET 1 - MIGRATE PARTS
+#
+EDIT .s1
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+REPLACE C31 227AVG050MGBJ;
+REPLACE C32 227AVG050MGBJ;
+REPLACE C33 227AVG050MGBJ;
+REPLACE C34 227AVG050MGBJ;
+REPLACE C35 227AVG050MGBJ;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+REPLACE J2 1719740002;
+REPLACE J3 1719740002;
+REPLACE J4 1719740002;
+REPLACE J5 1719740002;
+REPLACE J6 1719740002;
+REPLACE J7 1719740002;
+REPLACE J8 1719740002;
+REPLACE J9 1719740002;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+REPLACE U13 MCP1792T-5002H/CB;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+REPLACE J1 PJ-002A;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+REPLACE JP2 JUMPER-SMT_2_NC_PASTE_NO-SILK;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+REPLACE CON1 XT30PW-F;
+REPLACE CON2 XT30PW-F;
+REPLACE CON3 XT30PW-F;
+REPLACE CON4 XT30PW-F;
+REPLACE CON7 XT60PW-M;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME1 FRAME_A_L;
+REPLACE FRAME8 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+REPLACE LED1 LEDCHIP-LED0603;
+REPLACE LED2 LEDCHIP-LED0603;
+REPLACE LED3 LEDCHIP-LED0603;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+REPLACE JP1 PINHD-2X6;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+REPLACE C37 C-EUC0603;
+REPLACE C38 C-EUC1206;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+REPLACE GND21 GND;
+REPLACE GND22 GND;
+REPLACE GND23 GND;
+REPLACE GND24 GND;
+REPLACE GND25 GND;
+REPLACE GND26 GND;
+REPLACE GND27 GND;
+REPLACE GND28 GND;
+REPLACE GND29 GND;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 2 - MIGRATE PARTS
+#
+EDIT .s2
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+REPLACE C20 293D335X9035C2TE3;
+REPLACE C21 C2012X5R1V106K085AC;
+REPLACE C22 C2012X5R1V106K085AC;
+REPLACE C23 CGA3E2X7R1H104K080AA;
+REPLACE C25 EMK212BJ225KG-T;
+REPLACE C26 ECPU1C474MA5;
+REPLACE C27 CL21C620JBANNNC;
+REPLACE C28 CUSTOM_CAP;
+REPLACE L2 XAL5030-222MEB;
+REPLACE L4 NPI43C3R9MTRF;
+REPLACE M3 CSD17579Q5A;
+REPLACE M4 CSD18537NQ5A;
+REPLACE R6 ERJ-3RSFR10V;
+REPLACE R7 ERJ-6ENF5112V;
+REPLACE R8 ERJ-6ENF1581V;
+REPLACE R9 CRCW080573K2FKEA;
+REPLACE R10 CRCW080510K0FKEA;
+REPLACE U2 LM3150MH/NOPB;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+REPLACE C24 CGA4F2C0G1H153J085AA;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+REPLACE C4 PCR1H820MCL1GS;
+REPLACE C5 PCR1H820MCL1GS;
+REPLACE C6 PCR1H820MCL1GS;
+REPLACE C17 PCR1H820MCL1GS;
+REPLACE C18 PCR1H820MCL1GS;
+REPLACE C19 PCR1H820MCL1GS;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME2 FRAME_A_L;
+REPLACE FRAME7 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+REPLACE GND1 GND;
+REPLACE GND2 GND;
+REPLACE GND3 GND;
+REPLACE GND4 GND;
+REPLACE GND5 GND;
+REPLACE GND6 GND;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 3 - MIGRATE PARTS
+#
+EDIT .s3
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+REPLACE U1 LM3150MH/NOPB;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+REPLACE C7 TPSB475K035R0700;
+REPLACE C8 TPSB475K035R0700;
+REPLACE C9 C2012X5R1V156M125AC;
+REPLACE C10 C2012X5R1V156M125AC;
+REPLACE C11 C1005X5R1H104K050BB;
+REPLACE C13 EMK212BJ225KG-T:1;
+REPLACE C14 ECPU1C474MA5:1;
+REPLACE C15 C0805C301J5GACTU;
+REPLACE C16 PCV1E330MCL1GS;
+REPLACE L1 74437358082;
+REPLACE M1 CSD17579Q5A:1;
+REPLACE M2 CSD18537NQ5A:1;
+REPLACE R1 CRCW04021R00FKED;
+REPLACE R2 ERJ-6ENF3323V;
+REPLACE R3 ERJ-6ENF1371V;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+REPLACE R4 68XR10KLF;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+REPLACE C12 CGA4F2C0G1H153J085AA;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+REPLACE L3 XAL4030-332MEB;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME3 FRAME_A_L;
+REPLACE FRAME6 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+REPLACE R11 R-US_R0805;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+REPLACE GND7 GND;
+REPLACE GND8 GND;
+REPLACE GND9 GND;
+REPLACE GND10 GND;
+REPLACE GND11 GND;
+REPLACE GND12 GND;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 4 - MIGRATE PARTS
+#
+EDIT .s4
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+REPLACE Q1 BSC027N06LS5ATMA1;
+REPLACE Q2 BSC027N06LS5ATMA1;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+REPLACE U3 LTC4357CMS8TRPBF;
+REPLACE U8 LTC4357CMS8TRPBF;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+REPLACE CR1 STPS1150A;
+REPLACE CR2 STPS1150A;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME5 FRAME_A_L;
+REPLACE FRAME10 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+REPLACE C1 C-EUC1206;
+REPLACE C2 C-EUC1206;
+REPLACE C29 C-EUC1206;
+REPLACE C36 C-EUC1206;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+REPLACE SUPPLY1 GND:1;
+REPLACE SUPPLY2 GND:1;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 5 - MIGRATE PARTS
+#
+EDIT .s5
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+REPLACE U6 DMN67D8LW-13;
+REPLACE U7 DMN67D8LW-13;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+REPLACE Q3 IXTA96P085T;
+REPLACE Q7 IXTA96P085T;
+REPLACE Q8 IXTA96P085T;
+REPLACE Q9 IXTA96P085T;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME4 FRAME_A_L;
+REPLACE FRAME9 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+REPLACE C3 C-EUC0603;
+REPLACE C30 C-EUC0603;
+REPLACE R5 R-US_R0603;
+REPLACE R12 R-US_R0603;
+REPLACE R13 R-US_R0603;
+REPLACE R14 R-US_R0603;
+REPLACE R15 R-US_R0603;
+REPLACE R16 R-US_R0603;
+REPLACE R27 R-US_R0603;
+REPLACE R28 R-US_R0603;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+REPLACE GND13 GND;
+REPLACE GND14 GND;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 6 - MIGRATE PARTS
+#
+EDIT .s6
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+REPLACE R17 68XR10KLF;
+REPLACE R18 68XR10KLF;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+REPLACE U12 DMN67D8LW-13;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+REPLACE U9 TLV6713DDCTDDC0006A_M;
+REPLACE U10 TLV6713DDCTDDC0006A_M;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+REPLACE U11 TLV7041DCKR;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME11 FRAME_A_L;
+REPLACE FRAME12 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+REPLACE R19 R-US_R0603;
+REPLACE R20 R-US_R0603;
+REPLACE R21 R-US_R0603;
+REPLACE R22 R-US_R0603;
+REPLACE R25 R-US_R0603;
+REPLACE R29 R-US_R0603;
+REPLACE R30 R-US_R0603;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+REPLACE GND15 GND;
+REPLACE GND16 GND;
+REPLACE GND17 GND;
+REPLACE GND18 GND;
+REPLACE GND19 GND;
+REPLACE GND20 GND;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+#
+# SHEET 7 - MIGRATE PARTS
+#
+EDIT .s7
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/5v-LM3150MH.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/12v- LM3150.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/68XR10KLF.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/227AVG050MGBJ.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/1719740002.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/BSC027N06LS5ATMA1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/CGA4F2C0G1H153J085AA.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/DMN67D8LW-13.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/IXTA96P085T.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/LTC4357.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/MCP1792T-5002H.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PCR1H820MCL1GS.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/PJ-002A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+REPLACE J10 SM02BGHSTBLFSN;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SM02B-GHS-TB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/STPS1150A.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/SparkFun-Jumpers.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV6713DDC.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/TLV7041DCKR.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/XAL4030-332MEB.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/amass.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+REPLACE FRAME13 FRAME_A_L;
+REPLACE FRAME14 FRAME_B_L;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/frames.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/led.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+REPLACE C39 CAP_CERAMIC0603;
+REPLACE R23 RESISTOR0603;
+REPLACE R24 RESISTOR0603;
+REPLACE R26 RESISTOR0603;
+REPLACE R31 RESISTOR0603;
+REPLACE R32 RESISTOR0603;
+REPLACE R33 RESISTOR0603;
+REPLACE R34 RESISTOR0603;
+REPLACE R35 RESISTOR0603;
+REPLACE R36 RESISTOR0603;
+REPLACE R37 RESISTOR0603;
+REPLACE U$1 GND:2;
+REPLACE U$2 GND:2;
+REPLACE U$3 GND:2;
+REPLACE U$4 GND:2;
+REPLACE U$5 GND:2;
+REPLACE U$6 GND:2;
+REPLACE U$7 GND:2;
+REPLACE U4 ADC_ADS1015;
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/microbuilder.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/pinhead.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/rcl.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply1.lbr';
+# Migrate parts to 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr'
+USE 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+# Take 'C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr' out of use
+USE '-C:/Users/joeyb/Documents/Github/RoboDesignLab/Tello_Power_PCB/Libraries/supply2.lbr';
+EDIT .s1
+SET UNDO_LOG ON;
+# Put all libraries back into use
+USE *;

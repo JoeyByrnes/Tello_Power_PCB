@@ -8,6 +8,10 @@ Hardware Design Files for Tello Power Regulation/Distribution PCB
   <img width="70%" src="readme-visuals/power_pcb_top.png">
 </p>
 <br>
+<p align="center">
+  <img width="70%" src="readme-visuals/power_pcb_bottom.png">
+</p>
+<br>
 
 ## XT30 Expansion PCB
 <hr>
