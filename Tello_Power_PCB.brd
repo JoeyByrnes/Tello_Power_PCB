@@ -6463,7 +6463,7 @@ design rules under a new name.</description>
 <attribute name="TOLERANCE" value="1.0" x="-37.5" y="2.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VENDOR" value="Panasonic" x="-37.5" y="2.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C8" library="12v- LM3150" library_urn="urn:adsk.eagle:library:14070849" package="3528-21" package3d_urn="urn:adsk.eagle:package:14070891/1" value="4.7uF" x="-2.9" y="-25.5" smashed="yes" rot="R90">
+<element name="C8" library="12v- LM3150" library_urn="urn:adsk.eagle:library:14070849" package="3528-21" package3d_urn="urn:adsk.eagle:package:14070891/1" value="2.2uF" x="-2.9" y="-25.5" smashed="yes" rot="R90">
 <attribute name="CAP" value="4.7E6" x="36.1" y="-46.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ESR" value="0.7" x="36.1" y="-46.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="IRMS" value="0.314" x="36.1" y="-46.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -6493,7 +6493,7 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="" x="0" y="25.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="0" y="25.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C7" library="12v- LM3150" library_urn="urn:adsk.eagle:library:14070849" package="3528-21" package3d_urn="urn:adsk.eagle:package:14070891/1" value="4.7uF" x="1" y="-25.5" smashed="yes" rot="R90">
+<element name="C7" library="12v- LM3150" library_urn="urn:adsk.eagle:library:14070849" package="3528-21" package3d_urn="urn:adsk.eagle:package:14070891/1" value="2.2uF" x="1" y="-25.5" smashed="yes" rot="R90">
 <attribute name="CAP" value="4.7E6" x="70" y="-40.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="ESR" value="0.7" x="70" y="-40.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="IRMS" value="0.314" x="70" y="-40.5" size="1.778" layer="27" rot="R90" display="off"/>
