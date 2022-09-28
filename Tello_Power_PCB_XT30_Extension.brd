@@ -189,7 +189,7 @@
 <text x="11.2" y="18.2" size="2" layer="22" font="vector" ratio="15" rot="MR0">Motors</text>
 <text x="-2.8" y="18.2" size="2" layer="22" font="vector" ratio="15" rot="MR0">Motors</text>
 <text x="-16.8" y="18.2" size="2" layer="22" font="vector" ratio="15" rot="MR0">Motors</text>
-<wire x1="-26.5" y1="21.5" x2="-26.5" y2="16" width="0.1524" layer="22"/>
+<wire x1="-26.5" y1="19.5" x2="-26.5" y2="16" width="0.1524" layer="22"/>
 <wire x1="-26.5" y1="16" x2="-15.5" y2="16" width="0.1524" layer="22"/>
 <wire x1="-15.5" y1="16" x2="-15.5" y2="21.5" width="0.1524" layer="22"/>
 <wire x1="-12.5" y1="21.5" x2="-12.5" y2="16" width="0.1524" layer="22"/>
@@ -200,7 +200,7 @@
 <wire x1="12.5" y1="16" x2="12.5" y2="21.5" width="0.1524" layer="22"/>
 <wire x1="15.5" y1="21.5" x2="15.5" y2="16" width="0.1524" layer="22"/>
 <wire x1="15.5" y1="16" x2="26.5" y2="16" width="0.1524" layer="22"/>
-<wire x1="26.5" y1="16" x2="26.5" y2="21.5" width="0.1524" layer="22"/>
+<wire x1="26.5" y1="16" x2="26.5" y2="19.5" width="0.1524" layer="22"/>
 <hole x="-29" y="9" drill="2.7"/>
 <circle x="-29" y="9" radius="2.5" width="0.1" layer="21"/>
 </plain>
@@ -617,29 +617,34 @@ design rules under a new name.</description>
 <element name="CON4" library="amass" package="XT30PW-F" value="XT30PW-F" x="21" y="7.5" smashed="yes"/>
 </elements>
 <signals>
-<signal name="+">
+<signal name="GND">
+<contactref element="CON1" pad="-"/>
+<contactref element="CON4" pad="-"/>
+<contactref element="CON3" pad="-"/>
+<contactref element="CON2" pad="-"/>
+<via x="29" y="9" extent="1-16" drill="2.7" diameter="5"/>
+<polygon width="1" layer="16" isolate="0.254" thermals="no">
+<vertex x="-33" y="23"/>
+<vertex x="34" y="23"/>
+<vertex x="34" y="-1"/>
+<vertex x="-33" y="-1"/>
+</polygon>
+</signal>
+<signal name="V+">
 <contactref element="CON1" pad="+"/>
 <contactref element="CON2" pad="+"/>
 <contactref element="CON3" pad="+"/>
 <contactref element="CON4" pad="+"/>
-<wire x1="9.5" y1="7.5" x2="23.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.5" y1="7.5" x2="9.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.5" y1="7.5" x2="-4.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="-">
-<contactref element="CON1" pad="-"/>
-<contactref element="CON2" pad="-"/>
-<contactref element="CON3" pad="-"/>
-<contactref element="CON4" pad="-"/>
-<wire x1="4.5" y1="7.5" x2="18.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.5" y1="7.5" x2="4.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.5" y1="7.5" x2="-9.5" y2="7.5" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$6">
-<via x="29" y="9" extent="1-16" drill="2.7" diameter="5"/>
-</signal>
-<signal name="N$8">
 <via x="29" y="3" extent="1-16" drill="2.7" diameter="5"/>
+<wire x1="29" y1="3" x2="24.5" y2="7.5" width="2.54" layer="1"/>
+<wire x1="24.5" y1="7.5" x2="23.5" y2="7.5" width="2.54" layer="1"/>
+<polygon width="1" layer="1" isolate="0.254" thermals="no">
+<vertex x="34" y="23"/>
+<vertex x="34" y="23"/>
+<vertex x="34" y="-1"/>
+<vertex x="-33" y="-1"/>
+<vertex x="-33" y="23"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
