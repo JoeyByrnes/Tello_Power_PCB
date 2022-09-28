@@ -2010,7 +2010,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="227AVG050MGBJ_CAPPRD500W60D1025H1350" urn="urn:adsk.eagle:package:37573294/3" type="model" library_version="3">
+<package3d name="227AVG050MGBJ_CAPPRD500W60D1025H1350" urn="urn:adsk.eagle:package:37573294/4" type="model" library_version="4">
 <description>&lt;b&gt;10x12&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="227AVG050MGBJ_CAPPRD500W60D1025H1350"/>
@@ -3042,7 +3042,7 @@ IF 1&lt;2</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="227AVG050MGBJ_227AVG050MGBJ" urn="urn:adsk.eagle:component:37573356/2" prefix="C" library_version="3">
+<deviceset name="227AVG050MGBJ_227AVG050MGBJ" urn="urn:adsk.eagle:component:37573356/3" prefix="C" library_version="4">
 <description>&lt;b&gt;Aluminum Organic Polymer Capacitors 220uF 50V 20% POLYMER/IC&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG series.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -3055,7 +3055,7 @@ Source: &lt;a href="http://www.illinoiscapacitor.com/pdf/seriesDocuments/AVG ser
 <connect gate="G$1" pin="-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:37573294/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37573294/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -4918,11 +4918,11 @@ Source: &lt;a href="http://ixapps.ixys.com/datasheet/ds100025b(ixta-th-tp96p085t
 <part name="GND14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="R16" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
 <part name="R14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="1K"/>
-<part name="C31" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/3"/>
-<part name="C32" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/3"/>
-<part name="C33" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/3"/>
-<part name="C34" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/3"/>
-<part name="C35" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/3"/>
+<part name="C31" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
+<part name="C32" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
+<part name="C33" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
+<part name="C34" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
+<part name="C35" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
 <part name="Q1" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="BSC027N06LS5ATMA1_BSC027N06LS5ATMA1" device="" package3d_urn="urn:adsk.eagle:package:37573292/1"/>
 <part name="J1" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="PJ-002A_PJ-002A" device="" package3d_urn="urn:adsk.eagle:package:37573285/1" override_package3d_urn="urn:adsk.eagle:package:37573285/2" override_package_urn="urn:adsk.eagle:footprint:37573265/1"/>
 <part name="R11" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:37573324/1" value="33k"/>
