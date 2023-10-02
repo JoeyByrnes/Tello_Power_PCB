@@ -4914,7 +4914,7 @@ Source: &lt;a href="http://ixapps.ixys.com/datasheet/ds100025b(ixta-th-tp96p085t
 <part name="C30" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:37573320/1" value="47nF"/>
 <part name="Q3" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="IXTA96P085T_IXTA96P085T" device="" package3d_urn="urn:adsk.eagle:package:37573289/3"/>
 <part name="R27" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="2K"/>
-<part name="R15" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
+<part name="R15" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="100R"/>
 <part name="GND14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="SUPPLY1_GND*?:1" device=""/>
 <part name="R16" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
 <part name="R14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="1K"/>
@@ -4952,7 +4952,7 @@ Source: &lt;a href="http://ixapps.ixys.com/datasheet/ds100025b(ixta-th-tp96p085t
 <part name="R13" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="1K"/>
 <part name="Q9" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="IXTA96P085T_IXTA96P085T" device="" package3d_urn="urn:adsk.eagle:package:37573289/3"/>
 <part name="C3" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:37573320/1" value="47nF"/>
-<part name="R5" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
+<part name="R5" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="100R"/>
 <part name="FRAME11" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="FRAMES_FRAME_A_L" device=""/>
 <part name="FRAME12" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="FRAMES_FRAME_B_L" device=""/>
 <part name="R18" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="68XR10KLF_68XR10KLF" device="" package3d_urn="urn:adsk.eagle:package:37573295/3"/>
@@ -6805,6 +6805,9 @@ is 1001000</text>
 <text x="25.654" y="172.72" size="7.62" layer="91">With Inrush Current Limiter</text>
 <text x="233.934" y="187.96" size="12.7" layer="91">Motor High Side Switch</text>
 <text x="233.934" y="172.72" size="7.62" layer="91">With Inrush Current Limiter</text>
+<text x="66.04" y="144.78" size="1.778" layer="91">20v</text>
+<text x="71.12" y="104.14" size="1.778" layer="91">142mV</text>
+<text x="66.548" y="117.856" size="1.778" layer="91">5v</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -6837,7 +6840,7 @@ is 1001000</text>
 </instance>
 <instance part="R14" gate="G$1" x="68.58" y="109.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="67.0814" y="105.41" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="71.882" y="105.41" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="71.882" y="110.49" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q7" gate="G$1" x="294.64" y="114.3" smashed="yes" rot="MR90">
 <attribute name="NAME" x="303.53" y="115.57" size="1.778" layer="95" rot="MR0" align="center-left"/>
@@ -7081,6 +7084,10 @@ Under Voltage</text>
 <text x="259.08" y="50.8" size="2.54" layer="91">30 Second Filter Circuit</text>
 <text x="15.24" y="256.54" size="6.35" layer="91">Under- Voltage Protection Circuitry</text>
 <text x="261.62" y="157.48" size="2.54" layer="91">30 Second Filter Circuit</text>
+<text x="312.42" y="91.44" size="1.778" layer="91">5v</text>
+<text x="287.02" y="78.74" size="1.778" layer="91">3.89v?</text>
+<text x="233.68" y="91.44" size="1.778" layer="91">5.24v</text>
+<text x="322.58" y="83.82" size="1.778" layer="91">4.77</text>
 </plain>
 <instances>
 <instance part="FRAME11" gate="G$2" x="325.12" y="0" smashed="yes">
