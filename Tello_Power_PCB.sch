@@ -4914,9 +4914,9 @@ Source: &lt;a href="http://ixapps.ixys.com/datasheet/ds100025b(ixta-th-tp96p085t
 <part name="C30" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:37573320/1" value="47nF"/>
 <part name="Q3" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="IXTA96P085T_IXTA96P085T" device="" package3d_urn="urn:adsk.eagle:package:37573289/3"/>
 <part name="R27" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="2K"/>
-<part name="R15" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="100R"/>
+<part name="R15" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="3.6K"/>
 <part name="GND14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="SUPPLY1_GND*?:1" device=""/>
-<part name="R16" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
+<part name="R16" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="2K"/>
 <part name="R14" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="1K"/>
 <part name="C31" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
 <part name="C32" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="227AVG050MGBJ_227AVG050MGBJ" device="" package3d_urn="urn:adsk.eagle:package:37573294/4"/>
@@ -4948,11 +4948,11 @@ Source: &lt;a href="http://ixapps.ixys.com/datasheet/ds100025b(ixta-th-tp96p085t
 <part name="Q8" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="IXTA96P085T_IXTA96P085T" device="" package3d_urn="urn:adsk.eagle:package:37573289/3"/>
 <part name="R28" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="2K"/>
 <part name="GND13" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="SUPPLY1_GND*?:1" device=""/>
-<part name="R12" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="10K"/>
+<part name="R12" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="2K"/>
 <part name="R13" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="1K"/>
 <part name="Q9" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="IXTA96P085T_IXTA96P085T" device="" package3d_urn="urn:adsk.eagle:package:37573289/3"/>
 <part name="C3" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:37573320/1" value="47nF"/>
-<part name="R5" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="100R"/>
+<part name="R5" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="RCL_R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:37573323/1" value="3.6K"/>
 <part name="FRAME11" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="FRAMES_FRAME_A_L" device=""/>
 <part name="FRAME12" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="FRAMES_FRAME_B_L" device=""/>
 <part name="R18" library="Tello_Power_PCB" library_urn="urn:adsk.eagle:library:37573195" deviceset="68XR10KLF_68XR10KLF" device="" package3d_urn="urn:adsk.eagle:package:37573295/3"/>
